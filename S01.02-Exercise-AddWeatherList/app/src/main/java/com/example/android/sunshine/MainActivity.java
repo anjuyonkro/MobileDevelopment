@@ -47,5 +47,6 @@ public class MainActivity extends AppCompatActivity {
         // TODO (4) Append each String from the fake weather data array to the TextView
         for (String fakeWeatherDay : fakeWeatherData) {
             mWeather.append(fakeWeatherDay + "\n\n\n");
+        }
     }
 }
